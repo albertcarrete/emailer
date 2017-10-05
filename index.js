@@ -11,6 +11,9 @@ app.get('/', (req,res) => {
     res.send({hi: 'there'});
 })
 
+// check if we are in a development environment
+// check for Heroku's port
+const PORT = process.env.PORT || 5000;
 // Express here is really just telling 
 // Node.js to watch for traffic on this port
-app.listen(5000);
+app.listen(PORT);
