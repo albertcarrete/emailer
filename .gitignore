@@ -7,5 +7,4 @@ npm-debug.log
 # IntelliJ
 *.iml
 /.idea
-/config
-keys.js
+dev.js
