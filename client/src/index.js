@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// Data layer control
+// aka Redux
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
